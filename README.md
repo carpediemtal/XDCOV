@@ -24,6 +24,6 @@ java -jar -Dfile.encoding=UTF-8 xxxxx.jar
 
 ## 实现思路
 
-向https://xxcapp.xidian.edu.cn/uc/wap/login/check发送post请求获取cookie，再带着获得的cookie向https://xxcapp.xidian.edu.cn/xisuncov/wap/open-report/save发送post请求上传数据。
+向https://xxcapp.xidian.edu.cn/uc/wap/login/check 发送post请求获取cookie，再带着获得的cookie向 https://xxcapp.xidian.edu.cn/xisuncov/wap/open-report/save 发送post请求上传数据。
 
 通过Timer使这个过程每两个小时重复一次，把程序挂在服务器就可以高枕无忧了。
